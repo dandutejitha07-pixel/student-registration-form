@@ -1,0 +1,47 @@
+body{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-family:Arial;
+	background-color:#E0F7FA;
+	margin:0;
+	padding:0;
+}
+form{
+	width:350px;
+	margin:auto;
+}
+
+h2{
+	text-align:left;
+}
+label{
+	font-weight:bold;
+	display:block;
+	
+}
+p{
+	font-weight:bold;
+}
+input[type="submit"]{
+	background-color:#90EE90;
+	border-radius:4px;
+	cursor:pointer;
+	width:100%
+	font-weight:bold;
+}
+input[type="submit"]:hover{
+	background-color:#32CD32;
+}
+input,select{
+	margin-bottom:15px;
+	padding:10px;
+}
+input[type="checkbox"]{
+	margin-right:5px;
+}
+
+
+
+	

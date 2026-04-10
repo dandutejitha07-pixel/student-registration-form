@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student registration form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-container">
+<h1 style="text-align:center;">Student registration form</h1>
+<form action="#" method="post">
+<div style="margin-bottom":10px;>
+<label style="display:inline-block;width:50px;">Name:</label>
+<input type="text" id="name" name="name">
+</div>
+<br>
+<div style="margin-bottom":10px;>
+<label style="display:inline-block;width:50px;">Email:</label>
+<input type="email: id="email" name="email">
+</div>
+<br>
+<p>Gender</p>
+<div class="box">
+<label>
+<input type="radio" id="male" name="gender" value="Male">Male
+</label>
+<label>
+<input type="radio" id="female" name="gender" value="Female">Female
+</label>
+</div>
+<br><br>
+<div style="margin-bottom:15px;">
+<label style="display:inline-block;width:120px;">Phone Number</label>
+<input type="text" id="phone_number" name="phone number">
+</div>
+<div style="margin-bottom:15px;">
+<label style="display:inline-block;width:120px;">Password</label>
+<input type="password" id="password" name="password">
+</div><br>
+<h4>Select Courses</h4>
+
+<select id="course">
+<option value=" ">Select course</option>
+<option value="B.Tech">B.Tech</option>
+<option value="M.Tech">M.Tech</option>
+<option value="BSC">BSC</option>
+</select>
+<!checkbox type>
+<h2>Select Programs</h2>
+<label>
+<input type="checkbox" id="python" name="course" value="Python">Python
+</label>
+<label>
+<input type="checkbox" id="java" name="course" value="Java">Java
+</label>
+<h2>Select Hobbies</h2>
+<label>
+<input type="checkbox" id="reading" name="hobbies" value="Reading">Reading
+</label>
+<label>
+<input type="checkbox" id="dancing" name="hobbies" value="Dancing">Dancing
+</label>
+<label>
+<input type="checkbox" id="singing" name="hobbies" value="Singing">Singing
+</label>
+<br>
+</div>
+<input type="submit" value="Register Now">
+</form>
+<script src="script.js"></script>
+</body>
+</html>
